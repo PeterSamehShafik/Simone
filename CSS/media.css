@@ -1,0 +1,370 @@
+/* Extra small */
+@media (max-width: 575.98px){
+    html{
+        font-size: 8px;
+    }
+    .container{
+        width: 100%;
+    }
+
+    /* navbar */
+    .nav-links{
+        display: none;
+    }
+    .nav-btn{
+        opacity: 1;
+        cursor: pointer;
+    }
+    .nav-btn:hover .nav-drop-content{
+        display: flex;
+        flex-direction: column;
+    }
+    /* end of navbar */
+
+    /* about */
+    .about-text {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .about-info {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .about-records{
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+    .about-records p{
+        width: 50%;
+        margin: 20px 0px;
+    }
+    .about-records span{
+        font-size: 30px;
+    }
+    .about .vr-line{
+        display: none;
+    }
+    .small-screen-line{
+        display: flex;
+    }
+    .ver{
+        transform: rotate(90deg);
+        width: 40%;
+    }
+    /* end of about */
+
+    /* do menu */
+    .do-menu{
+        width: 100%;
+    }
+    .do-item{
+        width: 100%;
+    }
+    /* end of do */
+
+    /* resume */
+    .resume{
+        padding: 0px 10px;
+    }
+    .res-item{
+        width: 100% ;
+    }
+    .skills-container .hdr{
+        padding-left: 0px;
+    }
+    .skill {
+        width: 100%;
+    }
+    .resume button {
+        margin: 10px 0px;
+    }
+    /* end of resume */
+
+    /* portofolio */
+    .port-imgs-container {
+        flex-wrap: wrap;
+    }
+
+    /* reviews */
+    .reviews{
+        max-height: 400px;
+    }
+
+    /* contact */
+    .contact{
+        padding: 0px 10px;
+    }
+    .contact-infos {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    .contact-form {
+        width: 100%;
+        order: -1;
+    }
+    .input-contain{
+        width: 100%;
+    }
+
+
+    /* footer */
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .terms{
+        margin-top: 10px;
+    }   
+}
+
+/* small */
+@media (min-width: 576px) and (max-width: 767.98px){
+    html{
+        font-size: 10px;
+    }
+    
+    /* navbar */
+    .nav-links{
+        display: none;
+    }
+    .nav-btn{
+        opacity: 1;
+        cursor: pointer;
+    }
+    .nav-btn:hover .nav-drop-content{
+        display: flex;
+        flex-direction: column;
+    }
+    /* end of nabbar */
+
+    /* about */
+    .about-text {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .about-info {
+        margin-top: 60px;
+        width: 100%;
+    }
+    .about-records{
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+    .about-records p{
+        width: 50%;
+        margin: 20px 0px;
+    }
+    .about-records span{
+        font-size: 40px;
+    }
+    .about .vr-line{
+        display: none;
+    }
+    .small-screen-line{
+        display: flex;
+        width: 80%;
+    }
+    .ver{
+        transform: rotate(90deg);
+        width: 30%;
+    }
+    /* end of about */
+
+    /* do menu */
+    .do-menu{
+        width: 100%;
+    }
+    .do-item{
+        width: 100%;
+    }
+    /* end of di */
+
+
+    /* resume */
+    .resume{
+        padding: 0px 10px;
+    }
+    .res-item{
+        width: 100% ;
+    }
+    .skills-container .hdr{
+        padding-left: 0px;
+    }
+    .skill {
+        width: 100%;
+    }
+    .resume button {
+        margin: 10px 0px;
+    }
+
+     /* portofolio */
+    .port-imgs-container {
+        flex-wrap: wrap;
+    }
+
+
+    /* reviews */
+    .reviews{
+        max-height: 400px;
+    }
+
+
+    /* contact */
+    .contact-infos {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    .contact-form {
+        width: 100%;
+        order: -1;
+    }
+    .input-contain{
+        width: 100%;
+    }
+
+    /* footer */
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .terms{
+        margin-top: 10px;
+    }   
+
+}
+
+/* medium */
+@media (min-width: 768px) and (max-width: 991.98px){
+    html{
+        font-size: 12px;
+    }
+    /* navbar */
+    .nav-links{
+        display: none;
+    }
+    .nav-btn{
+        opacity: 1;
+        cursor: pointer;
+    }
+    .nav-btn:hover .nav-drop-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* about */
+    .about-text {
+        width: 100%;
+        text-align: center;
+    }
+    .about-info {
+        margin-top: 60px;
+        width: 100%;
+    }
+    .about-records{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .about-records p{
+        /* width: 50%; */
+        margin: 20px 0px;
+    }
+    .about-records span{
+        font-size: 40px;
+    }
+
+
+    /* do menu */
+    .do .container{
+        width: 100%;
+    }
+    .do-menu{
+        width: 100%;
+    }    
+    .do-item i{
+        height: fit-content;
+        padding: 20px 30px;
+    }
+    /* resume */
+     .skills-container .hdr{
+            padding-left: 15px;
+    }
+
+    /* portofolio */
+    .port-imgs-container {
+        flex-wrap: wrap;
+    }
+    .port-img{
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    /* reviews */
+    .reviews{
+        max-height: 350px;
+    }
+    .review-card{
+        width: 800px;
+    }
+
+
+    /* contact */
+    .contact-infos {
+        width: 35%;
+    }
+    .contact-form {
+        width: 60%;
+    }
+    .input-contain{
+        width: 100%;
+    }
+
+    /* footer */
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .terms{
+        margin-top: 10px;
+    }   
+
+}
+
+/* large */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    html{
+        font-size: 14px;
+    }
+    .container{
+        width: 100%;
+    }
+     /* about */
+    .about-records{
+        width: 100%;
+        
+    }
+
+    /* do */
+    .do-menu{
+        width: 100%;
+    }    
+
+    /* contact */
+    .contact-infos {
+        width: 35%;
+    }
+    .contact-form {
+        width: 60%;
+    }
+
+
+    /* footer */
+    .footer{
+        width: 95%;
+        margin: auto;
+    }
+}
